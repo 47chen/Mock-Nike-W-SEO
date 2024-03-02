@@ -14,7 +14,7 @@ const Hero = () => {
       id="home"
       className="w-full p-2 flex xl:flex-row flex-col justify-center min-h-screen gap-10 max-container"
     >
-      <div className="relative xl:w-2/5 flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
+      <div className="relative xl:w-[44%] flex flex-col justify-center items-start w-full max-xl:padding-x pt-28">
         <p className="text-xl font-montserrat text-coral-red mt-12">
           Our Summer Collection
         </p>
@@ -31,7 +31,7 @@ const Hero = () => {
           your active life.
         </p>
         <Button label="Shop Now" iconURL={arrowRight} />
-        <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-16">
+        <div className="flex justify-start items-start flex-wrap w-full mt-20 gap-20">
           {statistics.map((stat) => (
             <div key={stat.label}>
               <p className="text-4xl font-palanquin font-bold">{stat.value}</p>

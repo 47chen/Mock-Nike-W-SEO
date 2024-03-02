@@ -10,7 +10,7 @@ const Nav = () => {
           <img
             src={headerLogo}
             alt="Logo"
-            width={130}
+            width={120}
             height={29}
             className="rounded-full border-2 border-primary p-0.5"
           />
@@ -27,7 +27,7 @@ const Nav = () => {
             </li>
           ))}
         </ul>
-        <div className="hidden max-lg:block">
+        <div className="hidden max-lg:block mt-[45px]">
           <img src={hamburger} alt="hamburgerList" width={25} height={25} />
         </div>
       </nav>
